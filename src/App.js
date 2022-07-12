@@ -22,9 +22,10 @@ function App() {
           <Route exact path='/newproject' element={<NewProject />} />
         </Routes>
       </Container>
-      <p>Footer</p>
+      
+      <Footer />
     </Router >
-  );
+  )
 }
 
 export default App;
