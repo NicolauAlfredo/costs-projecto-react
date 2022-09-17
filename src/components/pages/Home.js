@@ -7,10 +7,11 @@ function Home() {
         <section className={styles.home_container}>
             <h1> Bem-vindo ao <span>Costs</span> </h1>
             <p> Comece a gerenciar os seus projectos agora mesmo! </p>
-            <LinkButton to="/NewProject" text="Criar Projecto" />
-            <img src={savings} alt="Costs" />
+            <LinkButton to="/newProject" text="Criar Projecto" />
+            <img src={savings} alt="savings" />
         </section>
     )
 }
 
 export default Home
+
