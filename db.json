@@ -1,48 +1,33 @@
 {
   "projects": [
     {
-      "name": "Teste",
-      "budget": "11",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Projecto 1",
-      "budget": "1000",
+      "name": "Criar site",
+      "budget": "20000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 2
+      "id": 5
     },
     {
-      "name": "Teste 2",
-      "budget": "2000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
+      "name": "Contratar um design",
+      "budget": "10000",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "name": "TRes",
-      "budget": "24",
-      "cost": 0,
-      "services": [],
-      "id": 4
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Contratar um design",
+          "cost": "1000",
+          "description": "Design para construir as páginas",
+          "id": "ec46f9a9-2ea1-4daa-bbba-bcc25255e2d8"
+        }
+      ],
+      "id": 6
     }
   ],
   "categories": [

@@ -38,7 +38,7 @@ function Projects() {
                     setRemoveLoading(true)
                 })
                 .catch((err) => console.log(err))
-        }, 1000)
+        }, 300)
     }, [])
 
     function removeProject(id) {
@@ -54,7 +54,6 @@ function Projects() {
                 setProjectMessage('Projecto removido com sucesso!')
             })
             .catch((err) => console.log(err))
-
     }
 
     return (
@@ -79,7 +78,7 @@ function Projects() {
                     ))}
                 {!removeLoading && <Loading />}
                 {removeLoading && projects.length === 0 && (
-                    < p > Não há projectos cadastrados!</p>
+                    <p> Não há projectos cadastrados!</p>
                 )}
             </Container>
         </div >
